@@ -4,13 +4,13 @@ import { Box, Button, Flex, Heading, Image, Text, ChakraProvider } from "@chakra
 import NavBar from './navBar';
 
 function App() {
-  // const [count, setCount] = useState(0)
+ const [count, setCount] = useState(0)
 
   return (
-    <ChakraProvider>
+    
     <>
-    <NavBar />
-    {/* <div>
+    
+    <div>
       <img src="/public/images/VidaBlack.png" alt="Vida Logo" />
       <h1>Vite + React</h1>
       <div>
@@ -19,9 +19,9 @@ function App() {
         </button>
       </div>
       <p>Edit <code>src/App.jsx</code> and save to test HMR updates.</p>
-    </div> */}
+    </div>
     </>
-    </ChakraProvider>
+    
     
   )
 }
